@@ -43,7 +43,7 @@ public class TestTekst {
 	public void testToString() {
 		Tekst tekst = new Tekst(1,"Ole Olsen", "23-10","en tekst");
 		
-		String str = "TEKST\n1\nOle Olsen\n23-10\n0\nen tekst\n";
+		String str = "TEKST\n1\nOle Olsen\n23-10\n0\n en tekst\n";
 		
 		assertEquals(str,tekst.toString());
 	}
